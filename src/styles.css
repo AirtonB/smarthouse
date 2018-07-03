@@ -1,5 +1,2 @@
 /* You can add global styles to this file, and also import other style files */
-body{
-  background-color:rgba(127, 214, 131, 0.788);
-
-}
+@import "~ngx-toastr/toastr.css";
