@@ -11,9 +11,10 @@
               <input class="form-control" placeholder="E-mail" name="email" type="email" [(ngModel)]="email" required>
             </div>
             <div class="form-group">
-              <input class="form-control" placeholder="Senha" name="password" type="password" [(ngModel)]="senha">
+              <input class="form-control" placeholder="Senha" name="password" type="password" [(ngModel)]="senha" required>
             </div>
-            <button type="button" class="btn btn-primary btn-block" (click)="login()" required>Primary</button>
+            <span>Não possui conta? <a routerLink="/registrar">registrar-se</a></span>
+            <button type="button" class="btn btn-primary btn-block" (click)="login()" required>Entrar</button>
           </fieldset>
         </form>
       </div>

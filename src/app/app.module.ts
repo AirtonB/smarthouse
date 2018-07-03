@@ -13,12 +13,14 @@ import { TelaPrincipalComponent } from './tela-principal/tela-principal.componen
 import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { ToastrModule, ToastNoAnimation, ToastNoAnimationModule, } from 'ngx-toastr';
+import { RegistrarComponent } from './registrar/registrar.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     LoginComponent,
-    TelaPrincipalComponent
+    TelaPrincipalComponent,
+    RegistrarComponent
   ],
   imports: [
     BrowserModule,
